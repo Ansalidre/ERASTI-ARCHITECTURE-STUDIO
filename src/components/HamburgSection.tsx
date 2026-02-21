@@ -7,7 +7,7 @@ const HamburgSection = () => {
   const locations = ["Blankenese", "Nienstedten", "Eppendorf", "Winterhude"];
 
   return (
-    <section className="py-28 lg:py-40 bg-background">
+    <section className="py-32 lg:py-48 bg-background">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -17,23 +17,16 @@ const HamburgSection = () => {
                 : "Markteintritt: Hamburg 2026"}
             </h2>
             <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
-              {lang === "en" ? "Current focus:" : "Aktueller Fokus:"}
+              {lang === "en" ? "Current Focus:" : "Aktueller Fokus:"}
             </p>
-            <p className="font-serif text-lg text-foreground mb-6">
+            <p className="font-serif text-lg text-foreground mb-8">
               {lang === "en"
                 ? "Premium Residential"
                 : "Hochwertige Wohnprojekte"}
             </p>
-            <div className="flex flex-wrap gap-x-8 gap-y-2 mb-12">
-              {locations.map((loc) => (
-                <span
-                  key={loc}
-                  className="text-muted-foreground text-base"
-                >
-                  {loc}
-                </span>
-              ))}
-            </div>
+            <p className="text-muted-foreground text-base mb-12">
+              {locations.join(" · ")}
+            </p>
             <p className="text-muted-foreground text-base leading-relaxed max-w-lg">
               {lang === "en"
                 ? "Selected partnerships with brokers, developers and private clients are currently being established."

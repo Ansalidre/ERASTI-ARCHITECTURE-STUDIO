@@ -11,16 +11,18 @@ const ModelSection = () => {
           "Alignment with local authorities",
           "Structured project processes",
           "Professional coordination between all stakeholders",
+          "Reliable execution standards",
         ]
       : [
           "Klare Kommunikation auf Deutsch und Englisch",
           "Abstimmung mit lokalen Behörden",
           "Strukturierte Projektabläufe",
           "Professionelle Koordination aller Beteiligten",
+          "Zuverlässige Ausführungsstandards",
         ];
 
   return (
-    <section className="py-28 lg:py-40 bg-secondary">
+    <section className="py-32 lg:py-48 bg-secondary">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
           <div>
@@ -29,13 +31,18 @@ const ModelSection = () => {
                 ? "The Germany Model"
                 : "Das Modell in Deutschland"}
             </h2>
-            <p className="text-muted-foreground text-base leading-relaxed mb-12">
+            <p className="text-muted-foreground text-base leading-relaxed mb-6">
               {lang === "en"
                 ? "Erasti Germany combines international architectural authorship with structured German project coordination."
                 : "Erasti Germany verbindet internationale Architekturqualität mit strukturierter deutscher Projektkoordination."}
             </p>
+            <p className="text-muted-foreground text-base leading-relaxed mb-14">
+              {lang === "en"
+                ? "This structure ensures international design quality while maintaining full compliance with German regulations and project standards."
+                : "Diese Struktur gewährleistet internationale Entwurfsqualität bei vollständiger Einhaltung deutscher Vorschriften und Projektstandards."}
+            </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-14">
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">
                   {lang === "en" ? "Architecture & Design" : "Architektur & Entwurf"}
