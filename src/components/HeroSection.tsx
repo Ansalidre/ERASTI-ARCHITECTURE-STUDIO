@@ -17,16 +17,16 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-6 lg:px-12 pb-20 lg:pb-28">
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground leading-tight mb-8">
-          ERASTI GERMANY
+          ERASTI ARCHITECTURE STUDIO
         </h1>
         <p className="font-serif text-xl md:text-2xl lg:text-3xl font-light text-primary-foreground/90 leading-relaxed max-w-2xl mb-2">
           International Architectural Excellence.
         </p>
         <p className="font-serif text-xl md:text-2xl lg:text-3xl font-light text-primary-foreground/90 leading-relaxed max-w-2xl mb-12">
-          German Project Execution.
+          German Market Representation.
         </p>
         <p className="text-sm tracking-widest text-primary-foreground/70 uppercase mb-10">
-          Premium Residential Projects · Hamburg 2026
+          Hamburg 2026 · Premium Residential
         </p>
         <a
           href="mailto:info@erasti-germany.de"

@@ -28,13 +28,13 @@ const ModelSection = () => {
           <div>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light text-foreground mb-10 leading-tight">
               {lang === "en"
-                ? "The Germany Model"
-                : "Das Modell in Deutschland"}
+                ? "Germany Representation"
+                : "Vertretung Deutschland"}
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed mb-6">
               {lang === "en"
-                ? "Erasti Germany combines international architectural authorship with structured German project coordination."
-                : "Erasti Germany verbindet internationale Architekturqualität mit strukturierter deutscher Projektkoordination."}
+                ? "Erasti Architecture Studio is currently establishing its presence in the German market, with a focus on premium residential projects in Hamburg."
+                : "Erasti Architecture Studio baut derzeit seine Präsenz auf dem deutschen Markt auf, mit Fokus auf hochwertige Wohnprojekte in Hamburg."}
             </p>
             <p className="text-muted-foreground text-base leading-relaxed mb-14">
               {lang === "en"

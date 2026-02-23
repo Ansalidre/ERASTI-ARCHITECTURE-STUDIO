@@ -13,8 +13,8 @@ const HamburgSection = () => {
           <div>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light text-foreground mb-10 leading-tight">
               {lang === "en"
-                ? "Market Entry: Hamburg 2026"
-                : "Markteintritt: Hamburg 2026"}
+                ? "Market Entry – Hamburg 2026"
+                : "Markteintritt – Hamburg 2026"}
             </h2>
             <p className="text-xs tracking-widest uppercase text-muted-foreground mb-6">
               {lang === "en" ? "Current Focus:" : "Aktueller Fokus:"}

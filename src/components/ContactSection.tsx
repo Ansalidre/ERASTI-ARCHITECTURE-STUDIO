@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-lg">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light text-foreground mb-14 leading-tight">
-            {lang === "en" ? "Germany Representation" : "Vertretung Deutschland"}
+            {lang === "en" ? "Contact" : "Kontakt"}
           </h2>
 
           <div className="w-48 lg:w-56 mb-8">
