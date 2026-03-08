@@ -62,6 +62,20 @@ const HeroSection = () => {
             >
               {lang === "en" ? "Request Introduction" : "Vorstellung anfragen"}
             </a>
+
+            <div className="mt-10">
+              <a
+                href="https://filippoerasti.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs tracking-wide hover:underline transition-colors duration-300"
+                style={{ color: '#D0D0D0' }}
+              >
+                {lang === "en"
+                  ? "Explore the full international portfolio → filippoerasti.com"
+                  : "Das internationale Portfolio entdecken → filippoerasti.com"}
+              </a>
+            </div>
           </div>
         </div>
       </div>
