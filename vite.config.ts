@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "base: "/ERASTI-ARCHITECTURE-STUDIO/",
+  base: "/ERASTI-ARCHITECTURE-STUDIO/",
   server: {
     host: "::",
     port: 8080,
