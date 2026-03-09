@@ -37,10 +37,10 @@ const ContactSection = () => {
           </p>
           <div className="space-y-2">
             <a
-              href="mailto:info@erasti-germany.de"
+              href="mailto:andre.weihrauch@erasti.studio"
               className="block text-foreground text-base hover:text-muted-foreground transition-colors"
             >
-              info@erasti-germany.de
+              andre.weihrauch@erasti.studio
             </a>
             <a
               href="tel:+491629209108"
