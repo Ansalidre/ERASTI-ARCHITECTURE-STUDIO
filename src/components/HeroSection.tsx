@@ -44,7 +44,7 @@ const HeroSection = () => {
             </p>
 
             <a
-              href="mailto:info@erasti-germany.de"
+              href="mailto:andre.weihrauch@erasti.studio"
               className="inline-block border text-sm tracking-[0.2em] uppercase transition-colors duration-300"
               style={{
                 color: 'hsl(var(--hero-text))',
